@@ -1,4 +1,4 @@
-# OutlineSimplification
+# OutlineSimplification (01/2020-04/2020)
 A simplification of a given image outlines using segment or bezier curve.
 
 Input : A PBM format image
