@@ -10,7 +10,7 @@ int main(int argc,char *argv[]){
     init_sequence_tab_point(&tab_contours);
     FILE *f;
 
-    if(argc != 4 ) ERREUR_FATALE("Utilisation commande : ./test_simplif-contours fichier_image fichier_resultat distanceSeuil\n");
+    if(argc != 4 ) ERREUR_FATALE("Utilisation commande : ./test_simplif-bezier2 fichier_image fichier_resultat distanceSeuil\n");
 
     double d = atof(argv[3]);
     printf("Seuil : %f\n",d);
