@@ -2,7 +2,9 @@
 A simplification of a given image outlines using segment or bezier curve.
 
 Input : A PBM format image
+
 Output : EPS format image
+
 limitDistance  : Maximum distance in pixel between the simplificated outline and the original one
 
 # Segment / Bezier (degree 1)
